@@ -1,0 +1,17 @@
+/*Подключаем шрифты*/
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: local('Inter'),
+        url(../../vendor/fonts/InterWeb/Inter-Regular.woff2) format('woff2'),
+        url(../../vendor/fonts/InterWeb/Inter-Regular.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    font-weight: 900;
+    src: local("Inter-Bold"),
+        url(../../vendor/fonts/InterWeb/Inter-Bold.woff2) format('woff2'),
+        url(../../vendor/fonts/InterWeb/Inter-Bold.woff) format('woff');
+}

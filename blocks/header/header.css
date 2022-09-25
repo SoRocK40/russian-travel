@@ -1,0 +1,33 @@
+.header {
+    max-width: 1184px;
+    margin: 28px auto 56px;
+    height: 100%;
+    padding: 0 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* от 1024px до 1280px*/
+@media screen and (max-width: 1279px) {
+    .header {
+        max-width: 928px;
+        margin-bottom: 48px;
+    }
+}
+
+/* от 768px до 1024px*/
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 720px;
+        padding: 0;
+    }
+}
+
+/* от 425px до 768px*/
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 288px;
+    }
+}
