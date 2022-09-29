@@ -26,4 +26,4 @@
 * Вёрстка по макету в Figma
 
 #  **Ссылка на проект**
-* 
+* https://sorock40.github.io/russian-travel/
