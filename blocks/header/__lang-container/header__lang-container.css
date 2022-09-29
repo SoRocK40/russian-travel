@@ -1,0 +1,10 @@
+.header__lang-container {
+  font-size: 1.5em;
+  line-height: 117%;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-container {
+    font-size: 1.125em;
+  }
+}

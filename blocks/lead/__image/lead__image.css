@@ -1,5 +1,3 @@
 .lead__image {
-  margin-bottom: 8px;
-  width: 100%;
-  object-fit: contain;
+    max-width: 100%;
 }

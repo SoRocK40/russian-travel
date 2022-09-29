@@ -1,25 +1,22 @@
 .footer {
-  margin: 0 auto 24px;
-  max-width: 1184px;
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px 24px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 768px) {
   .footer {
-    max-width: 928px;
+    padding: 0 calc(16px + (8 + 8*0.7) * ((100vw - 320px) / 768)) 24px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 550px) {
   .footer {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer {
+    margin: 0;
     max-width: 320px;
     flex-direction: column;
   }

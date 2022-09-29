@@ -6,28 +6,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(../../../vendor/images/cover__background.jpg) center no-repeat;
-  background-size: cover;
+  background: url(../../../images/cover__background.jpg) center no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   z-index: 1;
   color: #fff;
   text-decoration: none;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width:1024px) {
   .cover__link {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width:768px) {
   .cover__link {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__link {
-    min-height: 200px;
+    min-height: calc(200px + (280 + 280*0.7) * ((100vw - 320px) / 768));
   }
 }
 
