@@ -16,7 +16,7 @@
   .place {
     grid-template-columns: 340px minmax(min-content, 352px);
     gap: 48px 28px;
-    margin: 0 0 calc(50px + (23 + 23*0.7) * ((100vw -320) / 768));
+    margin: 0 0 calc(50px + (23 + 23*0.7)*((100vw - 320)/768));
   }
 }
 
