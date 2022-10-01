@@ -7,9 +7,7 @@
   align-items: center;
   justify-content: center;
   background: url(../../../images/cover__background.jpg) center no-repeat;
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
   color: #fff;
   text-decoration: none;

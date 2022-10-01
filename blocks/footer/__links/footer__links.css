@@ -12,5 +12,6 @@
     font-size: 1.5em;
     margin: 0 0 48px;
     flex-direction: column;
+    gap: 32px;
   }
 }

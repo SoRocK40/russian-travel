@@ -15,7 +15,14 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
+    margin: 0 auto 88px;
     gap: calc(12px + (4 + 4 * 0.7) * ((100vw - 320px) / 768));
     padding: 0 calc(16px + (8 + 8*0.7) * ((100vw - 320px) / 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    margin: 0 auto 53px;
   }
 }

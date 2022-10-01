@@ -7,6 +7,13 @@
 
 @media screen and (max-width: 768px) {
   .intro {
+    margin: 88px auto;
     padding: 0 calc(16px + (8 + 8*0.7) * ((100vw - 320px) / 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    margin: 64px auto;
   }
 }

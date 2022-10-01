@@ -1,6 +1,12 @@
 .header__lang-container {
+  padding: 0 0 5px;
   font-size: 1.5em;
   line-height: 117%;
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  gap: 18px
 }
 
 @media screen and (max-width: 425px) {

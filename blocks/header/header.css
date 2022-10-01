@@ -18,3 +18,9 @@
     padding: 24px calc(16px + (8 + 8*0.7) * ((100vw - 320px) / 768)) 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px calc(16px + (8 + 8*0.7) * ((100vw - 320px) / 768)) 0;
+  }
+}
